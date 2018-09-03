@@ -1,0 +1,14 @@
+<!--pages/weather/weather.wxml-->
+<view class="wtitle" style= "background-image: url('https://wx2.sinaimg.cn/mw690/701b1a02gy1fs741j0ur3j21kw0tlk1m.jpg'); width:100%;height:100%;background-size:cover;">
+   <text class="wtitle_txt">天气明信片</text>
+</view>
+<view class="wpic">
+   <image src="https://wx1.sinaimg.cn/mw690/701b1a02gy1fs741mxmguj21jk0p2h2e.jpg" class="wp2"></image>
+</view>
+<view class="essay">
+<text class="essay_txt">"因为天气不错，想寄一张明信片"你是否对此也有共鸣，在雨天、晴天、下雪、刮风的时候，写下这么一张明信片。</text>
+<text class="essay_txt" decode="{{true}}">\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【下雨了】坐在窗边，看着雨水在玻璃上划过的痕迹，内心平静，拿起手机拍下雨天的风景，制作一张附有雨滴动画的明星片，在明信片上记录这一刻的宁静；【暖洋洋的晴天】躺在海边的沙滩上，喝着桌上的冷饮，抬头看阳光很刺眼，但洒在身上暖洋洋的，不禁想制作一张有太阳的暖色调明信片，把这一刻的温暖存在明信片中；【白雪皑皑】在南方下雪是很不常见的，在下雪的时候南方人都兴奋地出门玩雪，在堆雪人、打雪仗之时也不忘拍照记录那时的喜悦，制作一张会“下雪”的明信片，珍藏这个雪天。</text>
+<view class="end">
+<image src="https://wx3.sinaimg.cn/mw690/701b1a02gy1fs741mlm7xj21kw0sd1ab.jpg" class="wpe"></image>
+</view>
+</view>

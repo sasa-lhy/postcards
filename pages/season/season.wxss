@@ -1,0 +1,33 @@
+/* pages/season/season.wxss */
+.stitle{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stitle_txt{
+  margin-top:200rpx ;
+  color:#faa;
+  font-size: 35rpx;
+  border-bottom:2px solid pink;
+}
+
+.essay{
+ /*background: #000;*/
+  margin-top: 50rpx;
+}
+
+.essay_txt{
+  display:block;
+  width:80%;
+  margin:0 10%;
+  word-break:break-all; 
+  font-size: 29rpx; 
+  line-height: 1.5em;
+  color:#666;
+}
+
+.pie{
+  width:750rpx;
+  height:550rpx;
+}

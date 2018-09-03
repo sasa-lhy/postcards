@@ -1,0 +1,42 @@
+/* pages/weather/weather.wxss */
+.wtitle{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.wtitle_txt{
+  margin-top:200rpx ;
+  color:#faa;
+  font-size: 35rpx;
+  border-bottom:2px solid pink;
+}
+
+.wp2{
+  margin-left: 35rpx;
+  height:350rpx;
+  width:700rpx;
+}
+
+.essay{
+ /*background: #000;*/
+  margin-top: 20rpx;
+  text-indent: 20rpx;
+  text-align: left;
+}
+
+.essay_txt{
+  display:block;
+  width:80%;
+  margin:0 10%;
+  word-break:break-all; 
+  font-size: 29rpx; 
+  line-height: 1.5em;
+  color:#666;
+}
+
+.wpe{
+  margin-top: 20rpx;
+  width:750rpx;
+  height:400rpx;
+}

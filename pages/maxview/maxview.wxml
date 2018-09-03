@@ -1,0 +1,5 @@
+<!--pages/maxview/maxview.wxml-->
+<view class="rongqi">
+  <canvas canvas-id='mycanvas'></canvas>
+  <image src="../../image/share.png" class="icon_1"></image>
+</view>

@@ -1,0 +1,9 @@
+<!--pages/storehouse/storehouse.wxml-->
+<view class="rongqi">
+  <view wx:for="{{list}}" wx:key="{{index}}" class="list" data-index="{{index}}">
+     <image src='{{item.icon}}'></image>
+     <text>{{item.txt}}</text>
+     <image src="../../image/delete.png" class="icon" bindtap='delItem' data-index="{{index}}"></image>
+     <image src="../../image/share.png" class="icon_1" open-type='share'></image>
+  </view>
+</view>

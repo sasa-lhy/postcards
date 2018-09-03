@@ -1,0 +1,11 @@
+<!--pages/season/season.wxml-->
+<view class="stitle" style= "background-image: url('https://wx2.sinaimg.cn/mw690/701b1a02gy1fs741hr5ovj21kw0fe15m.jpg'); width:100%;height:100%;background-size:cover;">
+   <text class="stitle_txt">季节明信片</text>
+</view>
+<view class="essay">
+<text class="essay_txt"  decode="{{true}}">\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在你的心中，是否有一个牵挂的人，在四季变化之时想起给ta寄去一封蕴含季节气氛的明信片，这个人或是你的父母，或是你的朋友，亦可以是你的恋人。在第一场春雨降临之时，在第一池夏荷绽放之时，在第一场秋收来临之际，在第一幕冬雪纷飞之时，你都可以寄出一份带有季节气息并饱含情感的明信片。</text>
+<text class="essay_txt" decode="{{true}}">\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;【你四季走过的路，过程是风景，结局是明信片】四季的游历，春看飞燕如梭穿柳，夏听蛙蝉似闻稻香，秋登楼阁无端添愁，冬飞风雪梅绽枝头。用你手机拍下的照片，在我们的制作明信片小程序中都可以diy变成一张专属明信片。把你看到的风景做成明信片，寄给亲友，或者留给自己一份记忆。</text>
+<view class="end">
+<image src="https://wx4.sinaimg.cn/mw690/701b1a02gy1fs7423bnwqj21kw1hqqv7.jpg" class="pie"></image>
+</view>
+</view>

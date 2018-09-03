@@ -1,0 +1,13 @@
+<view class="rongqi">
+  <!-- <view wx:for='{{list}}' wx:key="{{index}}" data-index="{{index}}" class="list" bindtap='listenerButtonPlay'>
+     <image src='{{item.img}}'></image>
+     <text>{{item.name}}</text>
+  </view> -->
+  <view wx:for='{{posts_key}}'  wx:key="{{index}}" data-index="{{index}}"  class='container' bindtap='listenerButtonPlay'>
+    <image src='{{item.img}}'></image>
+    <view class='intro'>
+      <text class='name'>{{item.name}}</text>
+      <text class='author'>{{item.author}}</text>
+    </view> 
+  </view>
+</view>

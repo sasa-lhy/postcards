@@ -1,0 +1,9 @@
+<!--pages/picture/picture.wxml-->
+<view class="container">
+<view class="container50">
+<image class="img" mode ="aspectFit" src="https://sasa-lhy.github.io/image/2.jpg" bindtap='select1'>图片一</image>
+</view>
+<view class="container50">
+<image class="img" mode ="aspectFit" src="https://sasa-lhy.github.io/image/one.jpg" bindtap='select2'>图片二</image>
+</view>
+</view>

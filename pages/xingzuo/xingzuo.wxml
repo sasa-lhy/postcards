@@ -1,0 +1,12 @@
+<!--pages/xingzuo/xingzuo.wxml-->
+<view class="xtitle" style= "background-image: url('https://wx1.sinaimg.cn/mw690/701b1a02gy1fs741vwmoxj21kw0zib2a.jpg'); width:100%;height:100%;background-size:cover;">
+   <text class="xtitle_txt">星座明信片</text>
+</view>
+<view class="essay">
+  <text class="essay_txt" decode="{{true}}">\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;制作一张关于星座，关于天文的明信片，是一个具有梦幻色彩的事情。在每个人的幼年时代，都幻想过未来的自己要成为什么什么样的人，其中一大部分人对天空有着很大的憧憬，所以想成为一个天文学家。生活可以毫无波澜地向前推进，少年时代的梦想已经深藏心底，即便有过涟漪，也能被时间所抚平。渐渐地，我们只是觉得喜欢晚上对着夜空放空一切思绪，看着漫天的星星默默地在心中辨认着星座。
+   \n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在我们成长的路上，遇到过很多次不同星座的流星雨，那一颗颗流星，就像一个个梦，引导着我们不停前进。流星虽然总是瞬间而逝，但银河中还有无数的星海，我们的梦想也是无穷无尽的，最初的梦想并没消失，而是被小心地储藏着。我们的星座明信片可以随时帮你收集你的梦想，你的星河就在明信片中。
+  </text>
+  <view class="end">
+  <image src="https://wx2.sinaimg.cn/mw690/701b1a02gy1fs742393t2j21kw1d0b2b.jpg" class="xe"></image>
+  </view>
+</view>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/welcom/welcom",
+    "pages/picture/picture",
+    "pages/editor/editor",
+    "pages/maxview/maxview",
+    "pages/season/season",
+    "pages/home/home",
+    "pages/music/music",
+    "pages/storehouse/storehouse",
+    "pages/xingzuo/xingzuo",
+    "pages/weather/weather"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#faa",
+    "navigationBarTitleText": "留光明信片",
+    "navigationBarTextStyle": "white"
+  }
+}

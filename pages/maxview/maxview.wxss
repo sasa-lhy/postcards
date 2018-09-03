@@ -1,0 +1,21 @@
+/* pages/maxview/maxview.wxss */
+.rongqi{
+  width:100%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+canvas{
+  border-radius: 3px;
+  width:330px;
+  height:480px;
+  box-shadow: 0 0 10rpx #bbb ;
+  margin: 20px auto;  
+}
+.icon_1{
+  width:60rpx;
+  height:60rpx;
+  background-color: #fff;
+  margin-top: 20rpx;
+ 
+}

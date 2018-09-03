@@ -1,0 +1,35 @@
+/* pages/xingzuo/xingzuo.wxss */
+/* pages/welcom/welcom.wxss */
+.xtitle{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.xtitle_txt{
+  margin-top:300rpx ;
+  color:#faa;
+  font-size: 35rpx;
+  border-bottom:2px solid pink;
+}
+
+.essay{
+  text-indent: 20rpx;
+  text-align: left;
+  background-color: #000;
+}
+
+.essay_txt{
+  display:block;
+  width:80%;
+  margin:0 10%;
+  word-break:break-all; 
+  font-size: 29rpx; 
+  line-height: 1.5em;
+  color:#ddd;
+}
+
+.xe{
+  width:720rpx;
+  height:600rpx;
+}

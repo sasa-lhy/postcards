@@ -1,0 +1,37 @@
+<!--pages/editor/editor.wxml-->
+<view class="rongqi">
+  <view class="huabu">
+    <canvas canvas-id="mycanvas"></canvas>
+    <canvas canvas-id="txt-canvas" class="hidecas"></canvas>
+    <canvas canvas-id="pic-canvas" class="hidecas"></canvas>
+  </view>
+
+  <view class="edit">
+    <view class="shuru">
+      <label for="btn-img" >选择图片：</label>
+      <button id="btn-img" bindtap='selectimg'>点击选择</button>
+    </view>
+    <view class="shuru">
+      <label for="btn-mus" >选择音乐：</label>
+      <button id="btn-mus" bindtap="choosemusic">点击选择</button>
+    </view>
+     <view class="shuru">
+      <label for="txt">文本:</label>
+      <input id='txt' type="text" maxlength="8" value ="{{card.wenzi}}" bindchange="chagetxt"></input>
+    </view>
+    <view class="shuru">
+      <label for="btn-rdo">选择样式：</label>
+      <radio-group class="radio-group" bindchange="radioChange" id="btn-rdo">
+        <label class="radio" wx:for="{{items}}">
+          <radio value="{{item.name}}" checked="{{item.checked}}" />{{item.value}}
+        </label>
+      </radio-group>
+    </view>
+    <view class="save">
+      <button class="btn-save" bindtap='tomax'>预览</button>
+      <button class="btn-save" bindtap='toku'>保存</button>
+    </view>
+  </view> <view class='music_control'>
+    <button class="btn-music" bindtap='music_control' style='background-color: {{isPlayingMusic?"#9DCFA7":"#7EDB5F"}};'>{{isPlayingMusic?"暂停":"播放"}}</button>
+  </view>
+</view>

@@ -1,0 +1,50 @@
+/* pages/home/home.wxss */
+
+.sw_txt{
+  color:#fff;
+  border:2px solid;
+  padding: 5rpx 10rpx;
+  margin-left: 290rpx;
+  line-height: 400rpx;
+  font-size: 30rpx;
+}
+
+.sw1_txt{
+  color:#fff;
+  border:2px solid;
+  padding: 5rpx 10rpx;
+  margin-left: 290rpx;
+  line-height: 300rpx;
+  font-size: 30rpx;
+}
+
+.home_div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn_txt{
+  color:#fff;
+  line-height: 70rpx;
+  font-size: 35rpx;
+}
+
+.btn{
+  text-align: center;
+  width:250rpx;
+  height:70rpx;
+  margin-top:150rpx;
+  padding: 5rpx 10rpx;
+  border-radius: 25rpx;
+  background-color: #faa
+}
+
+.home_div{
+  margin-top:100rpx;
+}
+swiper{
+  width:100%;
+  height:500rpx;
+  background-color:blanchedalmond;
+  color:white;
+}
